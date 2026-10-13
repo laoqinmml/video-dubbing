@@ -1,0 +1,11 @@
+﻿# work/ holds hundreds of MB of intermediates and out/ the rendered videos;
+# neither belongs in git.
+work/
+out/
+*.wav
+*.mp3
+__pycache__/
+*.pyc
+.venv/
+skill/**/work/
+skill/**/out/
